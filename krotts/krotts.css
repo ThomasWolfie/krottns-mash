@@ -1,0 +1,37 @@
+body {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: lightgrey;
+}
+
+#main {
+    border: 50px;
+    box-sizing: border-box;
+    border: black;
+    background-color: rgb(9, 206, 255);
+}
+
+#button-result {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 25rem;
+    max-height: 25rem;
+    margin: 0.2rem; 
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #imageContainer {
+        display: block;
+    }
+
+    #imageContainer img {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px; /* Add margin between images for better spacing */
+    }
+}
